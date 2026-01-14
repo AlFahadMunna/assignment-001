@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
 .btn {
   width: 164px;
   height: 44px;
@@ -12,13 +17,17 @@
   border-radius: 4px;
   color: white;
 }
+header {
+  display: flex;
+  flex-direction: column;
+}
 nav {
   height: 92px;
   width: 1600px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 16px 120px;
+  margin: auto;
 }
 nav ul {
   list-style: none;
@@ -31,4 +40,68 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: black;
+}
+#hero {
+  background-image: url("./assets/hero-bg.png");
+  background-repeat: no-repeat;
+  height: 674px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 120px 134px 120px;
+  display: flex;
+}
+.hero-content {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  width: 1360px;
+  height: 379px;
+}
+.early-access {
+  width: 229px;
+  height: 35px;
+  background-color: white;
+  gap: 6px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+}
+.early-access p {
+  font-size: 16px;
+  color: #30b868;
+}
+.hero-content h1 {
+  color: white;
+  text-align: center;
+  font-size: 72px;
+}
+.hero-content h1 span {
+  color: #30b868;
+}
+.hero-content .hero-p {
+  color: white;
+}
+
+.btn-hero-1 {
+  width: 251px;
+  height: 52px;
+  color: white;
+  border-radius: 4px;
+  background-color: #30b868;
+  border: none;
+  margin-right: 16px;
+}
+.btn-hero-2 {
+  width: 198px;
+  height: 52px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  color: white;
+  background: none;
 }
