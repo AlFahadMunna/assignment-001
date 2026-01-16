@@ -55,7 +55,7 @@ nav ul li a {
   display: flex;
   margin: auto;
   flex-direction: column;
-  gap: 16px;
+  gap: 32px;
   justify-content: center;
   align-items: center;
   width: 1360px;
@@ -104,4 +104,58 @@ nav ul li a {
   border: 1px solid #ffffff;
   color: white;
   background: none;
+}
+#notes-section {
+  width: 1600px;
+  height: 448px;
+  background-color: rgba(251, 251, 251, 1);
+  margin: 60px auto 0 auto;
+  padding: 0 120px 120px 120px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.notes-head {
+  height: 152px;
+  width: 1360px;
+  text-align: center;
+}
+#notes-section h1 {
+  font-size: 48px;
+  color: #001931;
+}
+#notes-section p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #627382;
+}
+.cards {
+  width: 1360px;
+  height: 300px;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.cards .card {
+  width: 322px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: #001931;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.card .img-box {
+  width: 60px;
+  height: 60px;
+  background-color: #f95555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
