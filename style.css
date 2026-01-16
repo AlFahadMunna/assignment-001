@@ -23,11 +23,12 @@ header {
 }
 nav {
   height: 92px;
-  width: 1600px;
+  max-width: 1600px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
+  margin: 0 auto;
 }
 nav ul {
   list-style: none;
@@ -106,13 +107,12 @@ nav ul li a {
   background: none;
 }
 #notes-section {
-  width: 1600px;
   height: 448px;
-  background-color: rgba(251, 251, 251, 1);
-  margin: 60px auto 0 auto;
+  height: 100%;
+  background: rgba(251, 251, 251, 1);
+  top: 0;
   padding: 0 120px 120px 120px;
   display: flex;
-  gap: 16px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -121,10 +121,12 @@ nav ul li a {
   height: 152px;
   width: 1360px;
   text-align: center;
+  margin-top: 40px;
 }
 #notes-section h1 {
   font-size: 48px;
   color: #001931;
+  margin: 16px 0;
 }
 #notes-section p {
   font-size: 15px;
@@ -143,10 +145,15 @@ nav ul li a {
 .cards .card {
   width: 322px;
   height: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   gap: 16px;
-  border: #001931;
+  padding: 24px;
+  border-bottom: none;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
