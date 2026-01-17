@@ -203,3 +203,20 @@ nav ul li a {
   align-items: center;
   gap: 16px;
 }
+#early-access-section {
+  width: 1360px;
+  height: 384px;
+  margin: auto;
+  padding: 40px 80px;
+  background-color: #f7f6f2;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+#early-access-section p {
+  color: #627382;
+}
