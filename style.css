@@ -135,7 +135,6 @@ nav ul li a {
 .cards {
   width: 1360px;
   height: 300px;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
