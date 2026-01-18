@@ -168,7 +168,7 @@ nav ul li a {
   margin: 0 auto;
   margin-top: -180px;
   background-color: white;
-  z-index: ;
+  z-index:;
 }
 .brain-container {
   display: flex;
@@ -219,4 +219,48 @@ nav ul li a {
 }
 #early-access-section p {
   color: #627382;
+}
+footer {
+  padding: 120px 120px 30px 120px;
+  margin: 30px auto 0;
+  display: flex;
+  gap: 80px;
+  flex-direction: column;
+  background-color: #001931;
+  color: white;
+}
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+}
+.social-logo {
+  display: flex;
+  gap: 10px;
+}
+hr {
+  margin-bottom: 20px;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cpy-text {
+  display: flex;
+  flex-direction: column;
+}
+.cpy-text p {
+  text-align: center;
+}
+.s-logo {
+  background-color: white;
+  color: black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.cpy-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #9ea5ab;
 }
