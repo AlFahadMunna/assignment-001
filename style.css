@@ -29,6 +29,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  padding: 16px 120px;
 }
 nav ul {
   list-style: none;
@@ -237,13 +238,12 @@ footer {
   display: flex;
   gap: 10px;
 }
-hr {
-  margin-bottom: 20px;
-}
+
 .social {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-right: 80px;
 }
 .cpy-text {
   display: flex;
@@ -258,6 +258,10 @@ hr {
   height: 20px;
   width: 20px;
   border-radius: 50%;
+}
+hr {
+  color: #14171c;
+  margin-bottom: 20px;
 }
 .cpy-text p {
   font-size: 16px;
